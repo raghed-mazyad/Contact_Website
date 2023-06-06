@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    background-color: #ADD7F6;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    margin-top: 20%;
+}
+
+.p{
+    font-size: 30px;
+}
+
+.p1{
+    margin-left: 47%;
+}
+
+.p2{
+    margin-left: 20%;
+    margin-top: 10px;}
+
+.b{
+    position: absolute;
+    margin-left: 34%;
+    margin-top: 3%;
+}
+
+button{
+    display: block;
+    border-radius: 40px;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding-left: 70px; */
+    /* padding-right: 70px; */
+    width: 300px;
+    margin: 12px
+}
+
+button:hover {
+    color: black;
+    border: 2px solid white;
+    width: 325px;
+    height: 70px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+@media (max-width: 762px){
+    body {
+        margin-top: 40%;
+    }
+
+    .p {
+        margin-top: 15%;
+        margin-left: -28px;
+    }
+
+    .p1{
+        margin-left: 44%;
+    }
+
+    .p2{
+        margin-left: 17%;
+    }
+
+    .b {
+        margin-left: 9%;
+    }
+
+    button{
+        margin-top: 22px;
+    }
+
+    button:hover {
+        border: 2px solid white;
+        width: 325px;
+        height: 70px;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+}
+
+@media (min-width: 763px){
+    .p {
+        margin-top: 15%;
+        margin-left: -28px;
+    }
+
+    .p1{
+        margin-left: 46%;
+        margin-top: 20px;
+    }
+
+    .b {
+        margin-left: 32%;
+    }
+
+    button:hover {
+        border: 2px solid white;
+        width: 325px;
+        height: 70px;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+    button{
+        margin-top: 22px;
+    }
+}
+
+@media (min-width: 1200px){
+    body{
+        margin-top: 15%;
+    }
+
+    .p {
+        margin-top: 10%;
+        margin-left: -70px;
+    }
+
+    .p1{
+        margin-left: 48%;
+    }
+
+    .p2{
+        margin-left: 30%;
+        margin-top: 20px;
+        margin-bottom: -25px;
+    }
+
+    .b {
+        margin-left: 37%;
+    }
+    button:hover {
+        border: 2px solid white;
+        width: 325px;
+        height: 70px;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+}
